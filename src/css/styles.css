@@ -1,0 +1,200 @@
+body {
+  background-color: #f4f9f4;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+  /*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* also equals 5.625em */
+  /*16px = 100% = 1em*/
+  /*em and percentage is accessiblity friendly */
+  /*em and % scale using browser font increases for impairment */
+  /*em and % are also inherited, and added to often make humongous fonts*/
+  /*rem or 'root em' does not get affected by upstream changes*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+
+div {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a {
+  color: #11999E;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Sacramento', cursive;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-width: 10px;
+  border-style: dotted none none none;
+  height: 0;
+  width: 100%;
+}
+
+/************************** CLASS SELECTORS **************************/
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle-container {
+  padding-bottom: 30px
+}
+
+.bottom-container {
+  background-color: #e0ebe8;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.botcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-image {
+  border-radius: 50%
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px
+}
+
+.square-icon-image {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.data-sci-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ddes-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row-1 {
+  margin: 20px auto 20px auto;
+  padding-top: 20px;
+  text-align: left;
+  width: 55%;
+}
+
+.skill-row-2 {
+  margin: 20px auto 20px auto;
+  padding-top: 20px;
+  text-align: right;
+  width: 55%;
+}
+
+.itallic-font {
+  font-style: italic;
+}
+
+.itallic-font-too {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.profile {
+  padding-top: 70px;
+  background-color: white;
+}
+
+.skill-detail-text {
+  line-height: 2;
+}
+
+.tiny-text {
+  margin-top: 35px;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.very-tiny-text {
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+.bohring {
+  font-family: monospace;
+}
+
+.contact-button {
+  -moz-box-shadow: inset 0 1px 0 0 #11999e;
+  -webkit-box-shadow: inset 0 1px 0 0 #11999e;
+  box-shadow: inset 0 1px 0 0 #11999e;
+  background-color: #11999e;
+  -webkit-border-top-left-radius: 22px;
+  -moz-border-radius-topleft: 22px;
+  border-top-left-radius: 22px;
+  -webkit-border-top-right-radius: 22px;
+  -moz-border-radius-topright: 22px;
+  border-top-right-radius: 22px;
+  -webkit-border-bottom-right-radius: 22px;
+  -moz-border-radius-bottomright: 22px;
+  border-bottom-right-radius: 22px;
+  -webkit-border-bottom-left-radius: 22px;
+  -moz-border-radius-bottomleft: 22px;
+  border-bottom-left-radius: 22px;
+  text-indent: 0;
+  border: 1px solid #11999e;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  height: 43px;
+  line-height: 50px;
+  width: 185px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0 #11999e;
+  margin: 20px 0;
+}
+
+.contact-button:hover {
+  background-color: #11999e;
+}
+
+.contact-button:active {
+  position: relative;
+  top: 1px;
+}
